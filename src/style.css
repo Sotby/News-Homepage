@@ -1,0 +1,52 @@
+html, body{
+    padding: 80px 200px 80px 200px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    align-self: right;
+    margin-left: auto;
+}
+nav a{
+    margin-top: 12px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+}
+header{
+    display: flex;
+    height: 400px;
+}
+
+header img{
+    width: 60%;
+    height: 400px;
+    margin-right: 25px;
+}
+.lateralSection{
+    padding: 20px;
+    height: 800px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+section, .mainSection{
+    display: flex;
+}
+section{
+    width: 70%;
+}
+.mainSection h1{
+    font-size: 64px;
+    width: 400px;
+}
+.mainSection div{
+    margin: 50px 0 0 50px;
+}
